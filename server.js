@@ -1,6 +1,12 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable comma-dangle */
+/* eslint-disable func-names */
+/* eslint-disable no-console */
+
 const express = require('express');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
+
 
 const app = express();
 const config = require('./webpack.config.js');
